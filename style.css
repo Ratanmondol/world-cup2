@@ -1,9 +1,84 @@
 main {
     width: 75%;
-    height: 650px;
+    height: 100%;
     background-color: black;
+}
+
+h1 {
+    color: white;
 }
 
 .love {
     color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.group {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+
+}
+
+.blog {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+    grid-column-gap: 15px;
+}
+
+.box1 {
+    color: black;
+    border: 2px solid blue;
+    width: 87px;
+    height: 30%;
+    background-color: white;
+    border-radius: 3px;
+
+}
+
+.box2 {
+    color: black;
+    border: 2px solid blue;
+    width: 87px;
+    height: 30%;
+    background-color: white;
+    border-radius: 3px;
+
+}
+
+.box3 {
+    color: white;
+    border: 2px solid blue;
+    width: 87px;
+    height: 30%;
+    background-color: red;
+    border-radius: 3px;
+
+
+}
+
+.blog2 {
+    width: 100px;
+    height: 150px;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+text1 {
+    margin-bottom: 10px;
+}
+
+.part2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
 }
