@@ -8,8 +8,12 @@ h1 {
     color: white;
 }
 
-.love {
+.love1 {
     color: white;
+}
+
+.love {
+    color: black;
 }
 
 main {
@@ -81,4 +85,11 @@ text1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
+    background-color: white;
+}
+
+.dev {
+    background-color: whitesmoke;
+    margin: 5px;
+    border-radius: 5px;
 }
